@@ -1,7 +1,9 @@
 package org.codemanship;
 
+import java.util.*;
+
 public class Rover {
-    private String direction ;
+    private String direction;
 
     public Rover(String direction) {
         this.direction = direction;
@@ -16,17 +18,12 @@ public class Rover {
     }
 
     public void turnRight() {
-        if (direction.equals("east")){
-            direction = "south";
-        }
-        else if (direction.equals("south")){
-            direction = "west";
-        }
-        else if (direction.equals("west")){
-          direction = "north";
-        }
-        else{
-            direction = "east";
+        List<String> compass = Arrays.asList("north", "east", "south", "west");
+        int currentDirectionIndex = compass.indexOf(direction);
+        if (currentDirectionIndex == 3) {
+            direction = compass.get(0);
+        } else {
+            direction = compass.get(currentDirectionIndex + 1);
         }
     }
 }

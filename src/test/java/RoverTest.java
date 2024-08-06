@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RoverTest {
 
     @Test
-    public void testRoverTurnsRightFromNorth(){
+    public void testRoverTurnsRightFromNorthToEast(){
 
         Rover rover = new Rover("north");
         rover.turnRight();
@@ -19,9 +19,16 @@ public class RoverTest {
         rover.turnRight();
         assertEquals("south", rover.getDirection());
     }
+    @Test
+    public void testRoverTurnsRightFromSouthToWest(){
+        Rover rover = new Rover("south");
+        rover.turnRight();
+        assertEquals("west", rover.getDirection());
+    }
+
 
     @Test
-    public void testRoverTurnsLeftFromEast(){
+    public void testRoverTurnsLeftFromEastToNorth(){
         Rover rover = new Rover("east");
         rover.turnLeft();
         assertEquals("north", rover.getDirection());

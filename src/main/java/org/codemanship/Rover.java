@@ -18,7 +18,11 @@ public class Rover {
     public void turnRight() {
         if (direction.equals("east")){
             direction = "south";
-        } else{
+        }
+        else if (direction.equals("south")){
+            direction = "west";
+        }
+        else{
             direction = "east";
         }
     }

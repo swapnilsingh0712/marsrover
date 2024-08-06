@@ -1,4 +1,3 @@
-import org.codemanship.Compass;
 import org.codemanship.Rover;
 import org.junit.jupiter.api.Test;
 

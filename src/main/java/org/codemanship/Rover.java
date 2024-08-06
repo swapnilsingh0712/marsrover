@@ -20,12 +20,18 @@ public class Rover {
     }
 
     public void turnRight() {
+        direction = nextDirection(direction);
+    }
+
+    private static String nextDirection(String currentDirection) {
         List<String> compass = Arrays.asList(NORTH, EAST, SOUTH, WEST);
-        int currentDirectionIndex = compass.indexOf(direction);
+
+        int currentDirectionIndex = compass.indexOf(currentDirection);
         if (currentDirectionIndex == 3) {
-            direction = compass.get(0);
+            currentDirection = compass.get(0);
         } else {
-            direction = compass.get(currentDirectionIndex + 1);
+            currentDirection = compass.get(currentDirectionIndex + 1);
         }
+        return currentDirection;
     }
 }

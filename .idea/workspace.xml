@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47c87039-c0a4-4c6c-a038-727bb9cb0361" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/Compass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/codemanship/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/Rover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoverTest.java" afterDir="false" />
     </list>

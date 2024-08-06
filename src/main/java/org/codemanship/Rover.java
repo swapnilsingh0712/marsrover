@@ -2,6 +2,8 @@ package org.codemanship;
 
 import java.util.*;
 
+import static org.codemanship.Compass.*;
+
 public class Rover {
     private String direction;
 
@@ -14,11 +16,11 @@ public class Rover {
     }
 
     public void turnLeft() {
-        direction = Compass.NORTH;
+        direction = NORTH;
     }
 
     public void turnRight() {
-        List<String> compass = Arrays.asList(Compass.NORTH, Compass.EAST, Compass.SOUTH, Compass.WEST);
+        List<String> compass = Arrays.asList(NORTH, EAST, SOUTH, WEST);
         int currentDirectionIndex = compass.indexOf(direction);
         if (currentDirectionIndex == 3) {
             direction = compass.get(0);

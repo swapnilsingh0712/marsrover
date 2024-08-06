@@ -2,6 +2,7 @@ import org.codemanship.Compass;
 import org.codemanship.Rover;
 import org.junit.jupiter.api.Test;
 
+import static org.codemanship.Compass.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RoverTest {
@@ -9,37 +10,37 @@ public class RoverTest {
     @Test
     public void testRoverTurnsRightFromNorthToEast() {
 
-        Rover rover = new Rover(Compass.NORTH);
+        Rover rover = new Rover(NORTH);
         rover.turnRight();
-        assertEquals(Compass.EAST, rover.getDirection());
+        assertEquals(EAST, rover.getDirection());
     }
 
     @Test
     public void testRoverTurnsRightFromEastToSouth() {
-        Rover rover = new Rover(Compass.EAST);
+        Rover rover = new Rover(EAST);
         rover.turnRight();
-        assertEquals(Compass.SOUTH, rover.getDirection());
+        assertEquals(SOUTH, rover.getDirection());
     }
 
     @Test
     public void testRoverTurnsRightFromSouthToWest() {
-        Rover rover = new Rover(Compass.SOUTH);
+        Rover rover = new Rover(SOUTH);
         rover.turnRight();
-        assertEquals(Compass.WEST, rover.getDirection());
+        assertEquals(WEST, rover.getDirection());
     }
 
     @Test
     public void testRoverTurnRightFromWestToNorth() {
-        Rover rover = new Rover(Compass.WEST);
+        Rover rover = new Rover(WEST);
         rover.turnRight();
-        assertEquals(Compass.NORTH, rover.getDirection());
+        assertEquals(NORTH, rover.getDirection());
     }
 
     @Test
     public void testRoverTurnsLeftFromEastToNorth() {
-        Rover rover = new Rover(Compass.EAST);
+        Rover rover = new Rover(EAST);
         rover.turnLeft();
-        assertEquals(Compass.NORTH, rover.getDirection());
+        assertEquals(NORTH, rover.getDirection());
     }
     @Test
     public void testRoverTurnsLeftFromWestToSouth(){}

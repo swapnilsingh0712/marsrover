@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47c87039-c0a4-4c6c-a038-727bb9cb0361" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Rover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RoverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testlist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codemanship/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/Rover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testlist" beforeDir="false" afterPath="$PROJECT_DIR$/testlist" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +36,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.RoverTest.executor": "Run",
+    "JUnit.RoverTest.testRoverTurnsLeftFromEast.executor": "Run",
     "JUnit.RoverTest.testRoverTurnsRight.executor": "Run",
+    "JUnit.RoverTest.testRoverTurnsRightFromNorth.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -56,7 +53,31 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RoverTest.testRoverTurnsRightFromNorth">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RoverTest">
+    <configuration name="RoverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marsrover" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoverTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoverTest.testRoverTurnsLeftFromEast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marsrover" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoverTest" />
+      <option name="METHOD_NAME" value="testRoverTurnsLeftFromEast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RoverTest.testRoverTurnsRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marsrover" />
       <option name="PACKAGE_NAME" value="" />
@@ -79,6 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoverTest" />
+        <item itemvalue="JUnit.RoverTest.testRoverTurnsLeftFromEast" />
         <item itemvalue="JUnit.RoverTest.testRoverTurnsRightFromNorth" />
         <item itemvalue="JUnit.RoverTest.testRoverTurnsRight" />
       </list>
@@ -92,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722939585568</updated>
-      <workItem from="1722939586400" duration="2155000" />
+      <workItem from="1722939586400" duration="3862000" />
     </task>
     <servers />
   </component>

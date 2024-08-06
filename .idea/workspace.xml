@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47c87039-c0a4-4c6c-a038-727bb9cb0361" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codemanship/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/Rover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codemanship/Compass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codemanship/Compass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="org.codemanship.Compass" />
     </key>
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="org.codemanship.Rover" />

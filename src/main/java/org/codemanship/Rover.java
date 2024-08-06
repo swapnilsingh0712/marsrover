@@ -22,6 +22,9 @@ public class Rover {
         else if (direction.equals("south")){
             direction = "west";
         }
+        else if (direction.equals("west")){
+          direction = "north";
+        }
         else{
             direction = "east";
         }

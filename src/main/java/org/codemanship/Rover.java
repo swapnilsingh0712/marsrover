@@ -1,7 +1,5 @@
 package org.codemanship;
 
-import java.util.*;
-
 import static org.codemanship.Compass.*;
 
 public class Rover {
@@ -23,15 +21,4 @@ public class Rover {
         direction = nextDirection(direction);
     }
 
-    private static String nextDirection(String currentDirection) {
-        List<String> compass = Arrays.asList(NORTH, EAST, SOUTH, WEST);
-
-        int currentDirectionIndex = compass.indexOf(currentDirection);
-        if (currentDirectionIndex == 3) {
-            currentDirection = compass.get(0);
-        } else {
-            currentDirection = compass.get(currentDirectionIndex + 1);
-        }
-        return currentDirection;
-    }
 }
